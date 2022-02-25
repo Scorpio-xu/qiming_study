@@ -1,4 +1,4 @@
-<img width="220px" src="/_img/uugai.com-1645172342796.png">
+<img width="220px" src="_img/uugai.com-1645172342796.png">
 
 
 - 此为个人学习网站，目前集成了cyc大佬的CS-NOTES、codesheep羊哥的编程学习指南和沉默二哥的java程序员进阶之路，欢迎访问，一起加油学习～
