@@ -15,7 +15,6 @@
   - [Java集合](Java/Java集合.md)
 
 - [**数据库**](/数据库/)
-  - [README](数据库/README.md)
   - [MySQL](数据库/MySQL.md)
   - [Redis](数据库/Redis.md)
 
