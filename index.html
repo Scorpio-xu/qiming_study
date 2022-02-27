@@ -7,6 +7,7 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css">
   <link rel="icon" href="_img/favicon.ico">
 </head>
 <body>
@@ -21,15 +22,51 @@
           paths: 'auto',
           placeholder: '🔍 Type to search ',
           noData: '😞 No Results! ',
-          depth: 6
+          depth: 3
         },
       loadSidebar: true,
-      subMaxLevel: 3
+      subMaxLevel: 3,
+      darklightTheme: {
+        defaultTheme: 'light',
+        siteFont: 'Source Sans Pro,Helvetica Neue,Arial,sans-serif',
+        codeFontFamily: 'Roboto Mono, Monaco, courier, monospace',
+        bodyFontSize: '15px',
+        dark: {
+          background: 'rgb(28,32,34)',
+          highlightColor: '#e96900',
+          codeBackgroundColor: 'rgb(34,39,46)',
+          codeTextColor: '#b4b4b4',
+        },
+        light: {
+          highlightColor: '#e96900',
+        }
+      },
+      plugins: [
+        function (hook) {
+          hook.afterEach(function (html) {
+            const currentYear = new Date().getFullYear()
+            const footer = `<footer><hr/><span>Copyright © 2018-${currentYear} <a href="https://qiming.info" target="_blank">QIMING.INFO</a>. All Rights Reserved.</footer>`
+            return html + footer;
+          });
+          hook.ready(function() {
+            // 初始化并第一次加载完成数据后调用，没有参数。
+          });
+        }
+      ]
   }
   </script>
+
+  
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
-  <script src="https://cdn.bootcss.com/docsify/4.5.9/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-json.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-java.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code@2.1.1/dist/docsify-copy-code.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"></script>
   <script async src="https://cdn.tobebetterjavaer.com/tobebetterjavaer/docsify/js/busuanzi.pure.mini.js"></script>
 </body>
 </html>
