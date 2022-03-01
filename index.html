@@ -8,6 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/style.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css">
   <link rel="icon" href="_img/favicon.ico">
 </head>
 <body>
@@ -19,11 +20,17 @@
       coverpage: true,
       loadNavbar: true, 
       search: {
-          paths: 'auto',
-          placeholder: '🔍 Type to search ',
-          noData: '😞 No Results! ',
-          depth: 3
-        },
+        paths: 'auto',
+        placeholder: '🔍 Type to search ',
+        noData: '😞 No Results! ',
+        depth: 3
+      },
+      count:{
+        countable:true,
+        fontsize:'0.9em',
+        color:'rgb(90,90,90)',
+        language:'chinese'
+      },
       loadSidebar: true,
       subMaxLevel: 3,
       darklightTheme: {
@@ -45,11 +52,10 @@
         function (hook) {
           hook.afterEach(function (html) {
             const currentYear = new Date().getFullYear()
-            const footer = `<footer><hr/><span>Copyright © 2018-${currentYear} <a href="https://qiming.info" target="_blank">QIMING.INFO</a>. All Rights Reserved.</footer>`
+            const footer = `<footer><hr/><span>本站内容采用<a href = "https://creativecommons.org/licenses/by-nc-sa/4.0/">
+              <i class="fab fa-creative-commons"></i> BY-NC-SA 4.0</a>许可协议，支持转载，请勿用于商业用途。</br></br>
+              Copyright © 2018-${currentYear} <a href="https://qiming.info" target="_blank">QIMING.INFO</a>. All Rights Reserved.</footer>`
             return html + footer;
-          });
-          hook.ready(function() {
-            // 初始化并第一次加载完成数据后调用，没有参数。
           });
         }
       ]
@@ -57,7 +63,7 @@
   </script>
 
   
-  <!-- Docsify v4 -->
+  <!-- Docsify v4、代码高亮、代码复制、搜索、emoji表情、字数统计、图片缩放、昼夜模式切换、不蒜子访问量统计-->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-bash.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-json.min.js"></script>
@@ -65,8 +71,9 @@
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code@2.1.1/dist/docsify-copy-code.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@latest/dist/index.min.js"></script>
-  <script async src="https://cdn.tobebetterjavaer.com/tobebetterjavaer/docsify/js/busuanzi.pure.mini.js"></script>
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 </body>
 </html>
