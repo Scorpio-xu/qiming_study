@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh">
 <head>
   <meta charset="UTF-8">
   <title>启明学习网</title>
@@ -54,6 +54,12 @@
             const currentYear = new Date().getFullYear()
             const footer = `<footer><hr/><span>本站内容采用<a href = "https://creativecommons.org/licenses/by-nc-sa/4.0/">
               <i class="fab fa-creative-commons"></i> BY-NC-SA 4.0</a>许可协议，支持转载，请勿用于商业用途。</br></br>
+              <span id="busuanzi_container_site_pv" style="display: inline;">
+                  👁️本页总访问次数:<span id="busuanzi_value_site_pv"></span>
+              </span>
+              <span id="busuanzi_container_site_uv" style="display: inline;">
+                  | 🧑总访客数: <span id="busuanzi_value_site_uv"></span>
+              </span></br></br>
               Copyright © 2018-${currentYear} <a href="https://qiming.info" target="_blank">QIMING.INFO</a>. All Rights Reserved.</footer>`
             return html + footer;
           });
