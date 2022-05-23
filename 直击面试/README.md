@@ -4,12 +4,16 @@
 
 感谢大佬～
 
-目前内容包括 Java 基础、Java 集合框架、Java 并发编程、Java 虚拟机、Spring、MyBatis、Redis、消息队列等等。
+目前内容包括 Java 基础、Java 集合框架、Java 并发编程、Java 虚拟机、MySQL、Spring、MyBatis、Redis、消息队列等等。
 
-- [Java基础篇](/sidebar/sanfene/javase.md)
-- [Java集合框架篇](/sidebar/sanfene/collection.md)
-- [Java并发编程篇](/sidebar/sanfene/javathread.md)
-- [Java 虚拟机篇](/sidebar/sanfene/jvm.md)
-- [Spring篇](spring.md)
-- [Redis篇](/sidebar/sanfene/redis.md)
+- [计算机基础篇](CS-Basic.md)
+- [Java基础篇](Java基础.md)
+- [Java集合框架篇](Java集合.md)
+- [Java并发编程篇](Java并发.md)
+- [Java虚拟机篇](JVM.md)
+- [MySQL篇](MySQL.md)
+- [Spring篇](Spring.md)
+- [MyBatis篇](MyBatis.md)
+- [Redis篇](Redis.md)
+- [消息队列篇](MQ.md)
 
