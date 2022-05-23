@@ -6,14 +6,14 @@
 
 目前内容包括 Java 基础、Java 集合框架、Java 并发编程、Java 虚拟机、MySQL、Spring、MyBatis、Redis、消息队列等等。
 
-- [计算机基础篇](CS-Basic.md)
-- [Java基础篇](Java基础.md)
-- [Java集合框架篇](Java集合.md)
-- [Java并发编程篇](Java并发.md)
-- [Java虚拟机篇](JVM.md)
-- [MySQL篇](MySQL.md)
-- [Spring篇](Spring.md)
-- [MyBatis篇](MyBatis.md)
-- [Redis篇](Redis.md)
-- [消息队列篇](MQ.md)
+- [计算机基础篇](直击面试/CS-Basic.md)
+- [Java基础篇](直击面试/Java基础.md)
+- [Java集合框架篇](直击面试/Java集合.md)
+- [Java并发编程篇](直击面试/Java并发.md)
+- [Java虚拟机篇](直击面试/JVM.md)
+- [MySQL篇](直击面试/MySQL.md)
+- [Spring篇](直击面试/Spring.md)
+- [MyBatis篇](直击面试/MyBatis.md)
+- [Redis篇](直击面试/Redis.md)
+- [消息队列篇](直击面试/MQ.md)
 
