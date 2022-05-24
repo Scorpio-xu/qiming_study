@@ -211,15 +211,15 @@ public User selectUser(User user);
 
 - 第1种：通过在查询的SQL语句中定义字段名的别名，让字段名的别名和实体类的属性名一致。
 
-  ```java
+  ```xml
   <select id="getOrder" parameterType="int" resultType="com.jourwon.pojo.Order">
          select order_id id, order_no orderno ,order_price price form orders where order_id=#{id};
   </select>
   ```
 
-- 第2种：通过resultMap  中的<result>来映射字段名和实体类属性名的一一对应的关系。
+- 第2种：通过resultMap  中的`<result>`来映射字段名和实体类属性名的一一对应的关系。
 
-  ```java
+  ```xml
   <select id="getOrder" parameterType="int" resultMap="orderResultMap">
    select * from orders where order_id=#{id}
   </select>

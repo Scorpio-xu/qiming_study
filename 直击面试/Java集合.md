@@ -165,7 +165,7 @@ JDK1.8的数据结构是`数组`+`链表`+`红黑树`。
 
 ![左旋](../_img/collection-10.png)
 
-![右旋](http://cdn.tobebetterjavaer.com/tobebetterjavaer/images/sidebar/sanfene/collection-11.png)
+![右旋](../_img/collection-11.png)
 
 - 染⾊：
 
