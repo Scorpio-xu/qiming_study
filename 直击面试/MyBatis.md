@@ -269,7 +269,7 @@ public User selectUser(User user);
 
 ![图片](../_img/mybatis-8.png)
 
-- **一对一<association>**
+- **一对一\<association>**
 
   比如订单和支付是一对一的关系，这种关联的实现：
 
@@ -313,7 +313,7 @@ public User selectUser(User user);
         </select>
     ```
 
-- **一对多<collection>**
+- **一对多\<collection>**
 
   比如商品分类和商品，是一对多的关系。
 
@@ -360,7 +360,7 @@ public User selectUser(User user);
             </resultMap>
     ```
 
-那么多对一、多对多怎么实现呢？还是利用<association>和<collection>，篇幅所限，这里就不展开了。
+那么多对一、多对多怎么实现呢？还是利用\<association>和\<collection>，篇幅所限，这里就不展开了。
 
 ### 10.Mybatis是否支持延迟加载？原理？
 
@@ -450,7 +450,7 @@ MyBatis中有一些支持动态SQL的标签，它们的原理是使用OGNL从SQL
   </select>
   ```
 
-- - <set> 可以用在动态更新的时候
+- - \<set> 可以用在动态更新的时候
 
     ```xml
     <update id="updateAuthorIfNecessary">
@@ -465,7 +465,7 @@ MyBatis中有一些支持动态SQL的标签，它们的原理是使用OGNL从SQL
     </update>
     ```
 
-  - <where>可以用在所有的查询条件都是动态的情况
+  - \<where>可以用在所有的查询条件都是动态的情况
 
 - foreach
 
