@@ -657,3 +657,12 @@ Producer端在发送消息的时候，会先根据Topic找到指定的TopicPubli
 - [10] .[七万字，151张图，通宵整理消息队列核心知识点总结！这次彻底掌握MQ！](https://blog.csdn.net/yessimida/article/details/119697864)
 - [11].极客时间 《消息队列高手课》
 - [12].RocketMQ官网
+
+# Kafka
+
+[Kafka 面试连环炮, 看看你能撑到哪一步?（上）](https://mp.weixin.qq.com/s?__biz=Mzg3MTcxMDgxNA==&mid=2247493809&idx=1&sn=3263a8e1b21f47d4613ed3c8937b73bb)
+
+[Kafka 面试连环炮, 看看你能撑到哪一步?（中）](https://mp.weixin.qq.com/s?__biz=Mzg3MTcxMDgxNA==&mid=2247495310&idx=1&sn=d46a464c99333d7b3118edace20d252d)
+
+[Kafka 面试连环炮, 看看你能撑到哪一步?（下）](https://mp.weixin.qq.com/s?__biz=Mzg3MTcxMDgxNA==&mid=2247495445&idx=1&sn=46e25f7838fab88588201eb6e793c162)
+
