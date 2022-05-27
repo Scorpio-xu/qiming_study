@@ -1,6 +1,6 @@
 # MySQL
 
-
+> 本文转载自 https://www.javalearn.cn/#/doc/MySQL/%E9%9D%A2%E8%AF%95%E9%A2%98，有改动。
 
 # 基础
 
