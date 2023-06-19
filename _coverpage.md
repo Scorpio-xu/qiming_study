@@ -1,4 +1,4 @@
-<img width="220px" src="_img/uugai.com-1645172342796.png">
+<img width="220px" src="https://upyun.xuqiming.tech/knhub/uugai.com-1645172342796.png">
 
 
 - 本站为个人学习网站，记录了有关计算机基础、算法、Java语言、后端开发相关技术栈的内容，欢迎访问，一起加油学习～
