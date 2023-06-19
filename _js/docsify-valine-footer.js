@@ -20,7 +20,7 @@ window.$docsify = window.$docsify || {}, window.$docsify.plugins = [function (n,
         </span></br></br>
         <span>本站内容采用<a href = "https://creativecommons.org/licenses/by-nc-sa/4.0/">
         <i class="fab fa-creative-commons"></i> BY-NC-SA 4.0</a>许可协议，支持转载，请勿用于商业用途。</br></br>
-        Copyright © 2021-${currentYear} <a href="https://qiming.info" target="_blank">QIMING.INFO</a>. All Rights Reserved.`
+        Copyright © 2021-${currentYear} <a href="https://xuqiming.tech" target="_blank">XUQIMING.TECH</a>. All Rights Reserved.`
     n.appendTo(n.find(".content"), footer)
   }));
   n.doneEach((function () {
